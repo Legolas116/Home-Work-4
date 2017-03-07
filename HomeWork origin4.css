@@ -1,30 +1,33 @@
-body{margin: 15px 200px 10px 200px}
+body{
+    margin: 15px 50px 10px 100px; 
+	padding: 20px 0px 20px 0px; 
+}
+
+
+.conteiner {
+	/* position: relative; */
+}
 
 .wrapper {
-	padding: 0 50px;
-}
-
-.project-name {
-	color: gray;
-}
-
-.tablo {
-	display: block;
-	text-align: center;
-	padding: 0;
+	padding: 0px 20px 20px 20px;
+    color: grey;
+    padding: 0 10px
 }
 
 .tablo li{
-    display: inline-block;
+	text-align: center;
+    
+    display: inline-flex;;
     background: #ddd;
-    padding: 1.5%;
+    padding: 1.6%;
     border-right: 1px solid #bfbfbf;
-    width: calc(100% / 6 - 5%);
+    width: calc(100% / 6  - 5%);
+    
 }
 
 .tablo li a {
 	text-decoration: none;
-	color: gray;
+	color: grey;
 }
 
 .tablo li:first-child {
@@ -35,7 +38,7 @@ body{margin: 15px 200px 10px 200px}
 .tablo  li:last-child {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
-	border-width: 0;
+   /*  border-width: 2px; */
 }
 .tablo li:hover {
 	box-shadow: inset 0 0 14px 1px #887b7b;
@@ -46,13 +49,14 @@ body{margin: 15px 200px 10px 200px}
 .marketying-stuff {
 	padding: 50px;
 	text-align: center;
-	background-color: darkgray;
+	font-size: 25px;
+	
 }
 .marketying-stuff button {
     padding: 15px;
 	font-size: 26px;
 	color: #fff;
-	background: green;
+	background: #52A852;
 	border: none;
 	border-radius: 10px;
 }
@@ -60,6 +64,10 @@ body{margin: 15px 200px 10px 200px}
 .text {
 	display: block
     background-color: #1d6d84;
+}
+
+.color{
+	color: #CB4F4F;
 }
 
 .text .block {
@@ -83,4 +91,5 @@ body{margin: 15px 200px 10px 200px}
 
 .footer {
 	margin-top: 75px;
+	padding: 10px
 }
